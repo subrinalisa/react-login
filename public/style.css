@@ -1,0 +1,20 @@
+body {
+  background: teal;
+}
+h1 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  margin-bottom: 30px;
+}
+.form-control {
+  background: transparent !important;
+}
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-light {
+  font-weight: 600;
+  color: teal;
+}
